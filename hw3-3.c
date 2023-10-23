@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int main()
-{int a,b;
+{
+    int a,b;
 scanf("%d%d",&a,&b);
 int a1=(a/1000+a%1000/100+a%100/10+a%10);
 int b1=(b/1000+b%1000/100+b%100/10+b%10);
